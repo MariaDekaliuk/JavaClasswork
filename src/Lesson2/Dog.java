@@ -1,9 +1,9 @@
 package Lesson2;
 public class Dog {
     //у объекта есть свойства, зададим их:
-    String name;  // текстовый тип переменной
-    String color;
-    int age;
+    public String name;  // текстовый тип переменной
+    public String color;
+    public int age;
 
     //у объекта также могут быть действия, зададим их:
     public void voiceDog(String say){

@@ -20,6 +20,11 @@ public class LessonVarExample {
         Comment 2
         Comment 3
          */
+        // -----------------------------------
+        //  Comment 1
+        //  Comment 2
+
+        // -----------------------------------
 
         double pi = 3.14151;
 
@@ -28,7 +33,7 @@ public class LessonVarExample {
         // переменная может иметь только два значения true или false
         boolean check;
 
-        check = (x == y);
+        check = (x == y);  //знак равно
 
         boolean b1 = true;
 

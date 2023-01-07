@@ -14,7 +14,6 @@ public class Tasks {
         int b = 3;
         int z = -5;
         int f = 8;
-        int s = 6;
 
         System.out.println("result = " + (a+z));
         System.out.println("result = " + (z*f/2));
@@ -51,7 +50,7 @@ public class Tasks {
         System.out.println("-----------------------");
 
 
-    // задача - 2 товара, 1-1000грн, 2-500грн, при покупке двух скидка 100грн
+        // задача - 2 товара, 1-1000грн, 2-500грн, при покупке двух скидка 100грн
         int t5=1000;
         int t6=500;
         int t7=t5+t6;
@@ -66,17 +65,18 @@ public class Tasks {
         int t2=500;
         int t3=t1+t2;
         double t4=t3*0.1;  //или препод сделал discount = sum * (10.0/100.0);
-                           //double result = sum - discount; и т.д.
+        //double result = sum - discount; и т.д.
         System.out.println("Цена без скидки: "+ t3);
         System.out.println("Скидка: 10% = " + t4);
         System.out.println("Цена со скидкой: " + (t3-t4) + "грн");
         System.out.println("-----------------------");
 
 
-        // Преобразование базовых типов. 2 вида явные и неявные.
-        // byte -> short -> int -> long
-        // автоматически из малого в большой Джава поймет,
-        // из малкеького в большой надо делать так:
+        /*Преобразование базовых типов. 2 вида явные и неявные.
+         byte -> short -> int -> long
+         автоматически из малого в большой Джава поймет,
+         из малкенького в большой надо делать так:*/
+
         double f1 = 10.5;
         double f2 = 2.5;
         double resDouble = f1/f2;
