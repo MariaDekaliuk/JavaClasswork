@@ -16,7 +16,16 @@ public class EnterPerson {
         person1.town="Hamburg"; //она переехала в Hamburg
         //у Ivana ничего не поменялось
 
+        System.out.println(person1.name); //печать Ivan
+        System.out.println(person1); //Lesson3.Human@378bf509 - напечатает адрес памяти, где хранятся данніе о єтой персоне
+        System.out.println(person2); //Lesson3.Human@5fd0d5ae
 
+        person1.greeting();
+        person2.greeting();
+
+        person2 = person1;  //объединение объектов, убрать двойника2
+        System.out.println(person1);
+        System.out.println(person2);
 
     }
 }
