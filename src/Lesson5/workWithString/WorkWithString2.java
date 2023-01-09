@@ -1,4 +1,4 @@
-package Lesson5;
+package Lesson5.workWithString;
 
 public class WorkWithString2 {
 
@@ -9,12 +9,12 @@ public class WorkWithString2 {
        //String text = "Это текст для метод проверки работы методов типа String";
        //String testString = "текст";
        //System.out.println(text.contains(testString)); //навести курсор и узнаешь какого типа данные она возвращает
-       // System.out.println(text.contains("Мasha"));
+       //System.out.println(text.contains("Мasha"));
 
        //boolean resultContains = text.contains("текст"); //вариант как задать переменную
        //System.out.println(resultContains);
 
-       String text = "   Это текст: Маша - программист Java Script";
+       String text = "   Это текст: Маша - программист Java Script. Маша - молодец программист.";
 
        StringMethodsTest(text);
 
@@ -74,20 +74,27 @@ public class WorkWithString2 {
        метод lastIndexOf - ...считает с конца строки
        */
 
+       System.out.println(text);
        System.out.println(text.indexOf("Маша"));
-       System.out.println("Слово 'Маша' начинается с индекса номер: " + text.indexOf("Маша"));
+       System.out.println("Слово 'Маша' ищет с начала строки, индекс с начала строки номер: " + text.indexOf("Маша"));
 
        System.out.println(text.lastIndexOf("Маша"));
-       System.out.println(text.lastIndexOf("программист"));
+       System.out.println("Слово 'Маша 'смотрит с конца строки, а индекс считает с начала строки: " + text.lastIndexOf("Маша"));
+       System.out.println("Cлово 'программист' с конца на " + text.lastIndexOf("программист")); //??? не понимаю
 
        System.out.println("------------------");
 
 
-/*
-посмотреть в инете решение как найти индексы три разных вхождений подстроки.
-напечатать три разные цифры
+/* Домашнее задание:
+   1) посмотреть в инете решение как найти индексы три разных вхождений подстроки.
+   напечатать три разные цифры
+   2) замена символов replace()
  */
-       //
+
+//=============сравнение строк=====================================================
+    int a =5;
+    int b=10;
+
 
 
    }
